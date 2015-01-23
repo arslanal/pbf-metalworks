@@ -63,8 +63,8 @@
 .tt-grid-wrapper nav a {
 	display: inline-block;
 	margin: 0 8px;
-	width: 118px;
-	height: 118px;
+	width: 18px;
+	height: 18px;
 	border-radius: 50%;
 	background: teal;
 	cursor: pointer;
@@ -74,8 +74,8 @@
 }
 
 .touch .tt-grid-wrapper nav a {
-	width: 30px;
-	height: 30px;
+	width: 130px;
+	height: 130px;
 }
 
 .tt-grid-wrapper nav a:hover {

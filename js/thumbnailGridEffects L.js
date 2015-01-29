@@ -4,11 +4,11 @@
 
 	// some dummy data to play with..
 	var allImages = {
-		page1 : ['<a href="#"><img src="resized/d_1.jpg" alt=""/></a>','<a href="#"><img src="resized/d_2.jpg" alt="img02"/></a>','<a href="#"><img src="resized/d_3.jpg" alt="img03"/></a>','<a href="#"><img src="resized/d_4.jpg" alt="img04"/></a>','<a href="#"><img src="resized/d_5.jpg" alt="img05"/></a>','<a href="#"><img src="resized/d_6.jpg" alt="img06"/></a>'],
+		page1 : ['<a href="#"><img src="resized/d_1.jpg" alt="img01"/></a>','<a href="#"><img src="resized/d_2.jpg" alt="img02"/></a>','<a href="#"><img src="resized/d_3.jpg" alt="img03"/></a>','<a href="#"><img src="resized/d_4.jpg" alt="img04"/></a>','<a href="#"><img src="resized/d_5.jpg" alt="img05"/></a>','<a href="#"><img src="resized/d_6.jpg" alt="img06"/></a>'],
 		page2 : ['<a href="#"><img src="resized/d_7.jpg" alt="img07"/></a>','<a href="#"><img src="resized/d_8.jpg" alt="img08"/></a>','<a href="#"><img src="resized/d_9.jpg" alt="img09"/></a>','<a href="#"><img src="resized/d_10.jpg" alt="img10"/></a>','<a href="#"><img src="resized/d_11.jpg" alt="img11"/></a>','<a href="#"><img src="resized/d_12.jpg" alt="img12"/></a>'],
-		page3 : ['<a href="#"><img src="resized/d_13.jpg" alt="img17"/></a>','<a href="#"><img src="resized/d_14.jpg" alt="img18"/></a>','<a href="#"><img src="resized/d_15.jpg" alt="img19"/></a>','<a href="#"><img src="resized/d_16.jpg" alt="img20"/></a>','<a href="#"><img src="resized/d_17.jpg" alt="img21"/></a>','<a href="#"><img src="resized/d_18.jpg" alt="img22"/></a>'],
-		page4 : ['<a href="#"><img src="resized/d_19.jpg" alt="img13"/></a>','<a href="#"><img src="resized/d_20.jpg" alt="img14"/></a>','<a href="#"><img src="resized/d_21.jpg" alt="img15"/></a>','<a href="#"><img src="resized/d_22.jpg" alt="img16"/></a>','<a href="#"><img src="resized/d_23.jpg" alt="img17"/></a>','<a href="#"><img src="resized/d_24.jpg" alt="img18"/></a>']
-		page5 : ['<a href="#"><img src="resized/d_19.jpg" alt="img13"/></a>','<a href="#"><img src="resized/d_20.jpg" alt="img14"/></a>','<a href="#"><img src="resized/d_21.jpg" alt="img15"/></a>','<a href="#"><img src="resized/d_22.jpg" alt="img16"/></a>','<a href="#"><img src="resized/d_23.jpg" alt="img17"/></a>','<a href="#"><img src="resized/d_24.jpg" alt="img18"/></a>']
+		page3 : ['<a href="#"><img src="resized/d_13.jpg" alt="img13"/></a>','<a href="#"><img src="resized/d_14.jpg" alt="img14"/></a>','<a href="#"><img src="resized/d_15.jpg" alt="img15"/></a>','<a href="#"><img src="resized/d_16.jpg" alt="img16"/></a>','<a href="#"><img src="resized/d_17.jpg" alt="img17"/></a>','<a href="#"><img src="resized/d_18.jpg" alt="img18"/></a>'],
+		page4 : ['<a href="#"><img src="resized/d_19.jpg" alt="img19"/></a>','<a href="#"><img src="resized/d_20.jpg" alt="img20"/></a>','<a href="#"><img src="resized/d_21.jpg" alt="img21"/></a>','<a href="#"><img src="resized/d_22.jpg" alt="img22"/></a>','<a href="#"><img src="resized/d_23.jpg" alt="img23"/></a>','<a href="#"><img src="resized/d_24.jpg" alt="img24"/></a>'],
+		page5 : ['<a href="#"><img src="resized/d_25.jpg" alt="img25"/></a>','<a href="#"><img src="resized/d_26.jpg" alt="img26"/></a>','<a href="#"><img src="resized/d_27.jpg" alt="img27"/></a>','<a href="#"><img src="resized/d_28.jpg" alt="img28"/></a>','<a href="#"><img src="resized/d_29.jpg" alt="img29"/></a>','<a href="#"><img src="resized/d_30.jpg" alt="img30"/></a>']
 	};
 
 	// http://coveroverflow.com/a/11381730/989439
@@ -77,7 +77,7 @@
 					case 2 : newImages = allImages.page3; break;
 					case 3 : newImages = allImages.page4; break;
 					case 4 : newImages = allImages.page5; break;
-					default : newImages = allImages.page5; break;
+					default : newImages = allImages.page1; break;
 				};
 
 				items.forEach( function( el ) {

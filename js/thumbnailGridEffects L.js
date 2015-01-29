@@ -76,6 +76,7 @@
 					case 1 : newImages = allImages.page2; break;
 					case 2 : newImages = allImages.page3; break;
 					case 3 : newImages = allImages.page4; break;
+					case 4 : newImages = allImages.page5; break;
 					default : newImages = allImages.page1; break;
 				};
 
